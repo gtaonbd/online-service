@@ -451,8 +451,6 @@ ytpSetI.innerHTML+=`<b style='font-size:18px' >TEAM X 1337</b>
   <button style="margin-left:10px" onclick="${(parseInt(Android.getInfo()) < parseInt(2.4)) ? "Android.oplink('https://t.me/Teamx1337official')" : "Android.oplink('https://t.me/Teamx1337official')"}">Join Telegram Channel</button>
 </div>
 
-<div style="text-align:center" ><button onclick="alert('Coming Soon...');">Hearted Videos</button><button style="margin-left:10px" onclick="${(parseInt(Android.getInfo()) < parseInt(2.4)) ? "alert('New version available.\\n\\nPlease Update Your YT PRO')" : "alert('YT PRO is upto date');"}">Check for Updates</button></div>
-
 
 <br>
 <div>Auto Play Video <span onclick="sttCnf(this,'autoSpn');" style="${sttCnf(0,0,"autoSpn")}" ><b style="${sttCnf(0,1,"autoSpn")}"></b></span></div>
@@ -465,7 +463,7 @@ ytpSetI.innerHTML+=`<b style='font-size:18px' >TEAM X 1337</b>
 </svg>1337</div>
 <br><br>
 <div style="font-size:13px;"><b style="font-weight:bold">Features</b>:
-Discover a YouTube-like experience with all premium options available, completely ad-free. <br>
+Discover a YouTube-like experience with all premium options available, completely ad-free.made by : <h5 style="color:cyan;">Shofikul Islam</h5> <br>
 By <a href="#" onclick="Android.oplink('https://t.me/Teamx1337official')" > TEAM X 1337</a>
 <br><br><center>
 <a href="#" onclick="Android.oplink('https://t.me/S80F9K6L1337')" >Contact Developer</a>

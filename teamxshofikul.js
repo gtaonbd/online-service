@@ -444,7 +444,7 @@ color:black;
 ytpSetI.innerHTML+=`<b style='font-size:18px' >TEAM X 1337</b>
 <span style="font-size:10px">{Youtube Premium}</span>
 <br><br>
-<div><input type="url" placeholder="Paste Youtube Video URL" onkeyup="searchUrl(this,event)"></div>
+<div><input type="url" placeholder="Enter Youtube URL" onkeyup="searchUrl(this,event)"></div>
 <br>
 
 
@@ -459,7 +459,7 @@ ytpSetI.innerHTML+=`<b style='font-size:18px' >TEAM X 1337</b>
 <br>
 <div>Enable Zoom Mode<span onclick="sttCnf(this,'fzoom');" style="${sttCnf(0,0,"fzoom")}" ><b style="${sttCnf(0,1,"fzoom")}" ></b></span></div> 
 <br>
-<div style="display:flex;justify-content:center;font-family:cursive;text-align:center;font-size:22px;font-weight:bolder;color:#0f8;">Owner 
+<div style="display:flex;justify-content:center;font-family:cursive;text-align:center;font-size:22px;font-weight:bolder;color:#0f8;">Made with 
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#f00" style="margin:6px;margin-top:5px" viewBox="0 0 16 16">
 <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
 </svg>TEAM X 1337</div>
@@ -470,11 +470,14 @@ ytpSetI.innerHTML+=`<b style='font-size:18px' >TEAM X 1337</b>
   <b style="font-weight:bold">This app was redeveloped by: Shofikul Islam.</b>
   <br>
   All Copyright Reserved By: TEAM X 1337<br>
-  For any suggestion 
-  <a href="#" onclick="Android.oplink('https://t.me/Teamx1337official')">Contact Developer</a>
+  You can join the TEAM X 1337 community by clicking the option below:
+  <a href="#" onclick="Android.oplink('https://t.me/Teamx1337official')">Join Telegram</a>
 </div>
 
 
+<br><br><center>
+<a href="#" onclick="Android.oplink('https://t.me/S80F9K6L1337')" >Contact Developer</a>
+</center></div>`;
 
 document.body.appendChild(ytpSet);
 ytpSet.appendChild(ytpSetI);

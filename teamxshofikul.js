@@ -554,7 +554,7 @@ z-index:99999999999999;padding:20px;text-align:center;border-radius:25px;color:w
 `);
 
 ytproDownDiv.innerHTML="<style>#downytprodiv a{text-decoration:none;color:white;} #downytprodiv li{list-style:none; display:flex;align-items:center;justify-content:center;color:#fff;border-radius:25px;padding:10px;background:#000;margin:5px;}</style>";
-ytproDownDiv.innerHTML+="Select Avilaible Formats<ul id='listurl'>";
+ytproDownDiv.innerHTML+="Select your Video Format | TEAM X 1337<ul id='listurl'>";
 
 document.body.appendChild(ytproDown);
 ytproDown.appendChild(ytproDownDiv);
@@ -598,7 +598,7 @@ ${downBtn}<span style="margin-left:10px;"  >Audio${formatFileSize(af[x].contentL
 
 if(thumb != undefined){
 
-ytproDownDiv.innerHTML+="<br>Thumbnails<br><br><style>.thu{height:80px;border-radius:10px;}.thu img{max-height:97%;max-width:70%;border-radius:10px;border:1px solid silver;}</style>";
+ytproDownDiv.innerHTML+="<br><h6>Download Thumbnail</h6><br><br><style>.thu{height:80px;border-radius:10px;}.thu img{max-height:97%;max-width:70%;border-radius:10px;border:1px solid silver;}</style>";
 for(x in thumb){
 ytproDownDiv.innerHTML+=`<li data-ytprotit="${t+Date.now()}"  onclick="YTDownVid(this,'.png')" class="thu" data-ytprourl="${thumb[x].url}">
 <img src="${thumb[x].url}"><br>
@@ -610,7 +610,7 @@ ytproDownDiv.innerHTML+=`<li data-ytprotit="${t+Date.now()}"  onclick="YTDownVid
 
 
 }else {
-alert("AN ERROR OCCURED , PLEASE UPDATE YT PRO");
+alert("AN ERROR OCCURED , Contact Shofikul Islam");
 }
 }
 

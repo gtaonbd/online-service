@@ -1,7 +1,7 @@
 /*****YTPRO*******
-Author: Prateek Chaubey
+Author:Shofikul Islam
 Version: 3.1
-URI: https://github.com/prateek-chaubey/
+Url : https://about-me-two-chi.vercel.app/
 */
 
 
@@ -167,7 +167,10 @@ text-align:center;line-height:35px;
 `);
 setDiv.setAttribute("id","setDiv");
 var svg=document.createElement("div");
+
 svg.innerHTML=`<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-gear-fill" viewBox="0 0 16 16">
+  
+  
 <path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"/>
 </svg>`;
 setDiv.appendChild(svg);
@@ -392,76 +395,144 @@ z-index:99999999999999;padding:20px;text-align:center;border-radius:25px;color:w
 `);
 
 ytpSetI.innerHTML=`<style>
-#settingsprodiv a{text-decoration:underline;color:white;} #settingsprodiv li{list-style:none; display:flex;align-items:center;justify-content:center;color:#fff;border-radius:25px;padding:10px;background:#000;margin:5px;}
-#ssprodivI div{
-height:10px;
-width:calc(100% - 20px);
-padding:10px;
-font-size:16px;
-font-family:monospace;
-text-align:left;
-display:block;
-}
-#ssprodivI div span{
-display:block;
-height:15px;
-width:30px;
-border-radius:20px;
-float:right;
-position:relative;
-background:rgba(255,0,0,.5);
-}
-#ssprodivI div span b{
-display:block;
-height:20px;
-width:20px;
-position:absolute;
-right:-6px;
-top:-2px;
-border-radius:50px;
-background:rgba(255,0,0,5);
-}
-#ssprodivI div input::placeholder{color:white;}
-#ssprodivI div input,#ssprodivI div button{
-height:30px;
-background:rgba(255,255,255,.1);
-width:100%;
-border:0;
-border-radius:20px;
-padding:10px;
-font-size:14px;
-}
-#ssprodivI div button{
-background:linear-gradient(90deg,#0f8,#0aa);
-font-size:14px;
-width:47%;
-border-radius:10px;
-padding:0;
-color:black;
+
+body {
+    animation: changeBackgroundColor 10s infinite alternate; /* Animation for changing background color */
 }
 
-</style>`;
-ytpSetI.innerHTML+=`<b style='font-size:18px' >YT PRO Settings</b>
-<span style="font-size:10px">v${YTProVer}</span>
+@keyframes changeBackgroundColor {
+    0% { background-color: #333; } /* Initial background color */
+    50% { background-color: #555; } /* Midpoint background color */
+    100% { background-color: #777; } /* Final background color */
+}
+
+#settingsprodiv a {
+    text-decoration: underline;
+    color: white;
+}
+
+#settingsprodiv li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 25px;
+    padding: 10px;
+    background: #000;
+    margin: 5px;
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+    cursor: pointer; /* Add cursor pointer for better UX */
+}
+
+#settingsprodiv li:hover {
+    background: #222; /* Darken background color on hover */
+}
+
+#ssprodivI div {
+    height: 10px;
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: 16px;
+    font-family: monospace;
+    text-align: left;
+    display: block;
+}
+
+#ssprodivI div span {
+    display: block;
+    height: 15px;
+    width: 30px;
+    border-radius: 20px;
+    float: right;
+    position: relative;
+    background: rgba(255, 0, 0, 0.5);
+    transition: width 0.3s ease; /* Smooth transition for width */
+}
+
+#ssprodivI div span b {
+    display: block;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: -6px;
+    top: -2px;
+    border-radius: 50px;
+    background: rgba(255, 0, 0, 5);
+}
+
+#ssprodivI div input::placeholder {
+    color: white;
+}
+
+#ssprodivI div input,
+#ssprodivI div button {
+    height: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    width: 100%;
+    border: 0;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 14px;
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+#ssprodivI div input:hover,
+#ssprodivI div button:hover {
+    background: rgba(255, 255, 255, 0.2); /* Darken background color on hover */
+}
+
+#ssprodivI div button {
+    background: linear-gradient(90deg, #0f8, #0aa);
+    font-size: 14px;
+    width: 47%;
+    border-radius: 10px;
+    padding: 0;
+    color: black;
+    transition: background 0.3s ease; /* Smooth transition for background */
+}
+
+#ssprodivI div button:hover {
+    background: linear-gradient(90deg, #0aa, #0f8); /* Change gradient direction on hover */
+}
+
+</style>
+`;
+
+
+
+
+ytpSetI.innerHTML+=`<b style='font-size:18px' >TEAM X 1337</b>
+<span style="font-size:10px">YouTube Premium</span>
 <br><br>
 <div><input type="url" placeholder="Enter Youtube URL" onkeyup="searchUrl(this,event)"></div>
 <br>
-<div style="text-align:center" ><button onclick="alert('Coming Soon...');">Hearted Videos</button><button style="margin-left:10px" onclick="${(parseInt(Android.getInfo()) < parseInt(2.4)) ? "alert('New version available.\\n\\nPlease Update Your YT PRO')" : "alert('YT PRO is upto date');"}">Check for Updates</button></div>
+
+<div style="text-align:center">
+  <button style="margin-left:10px" onclick="${(parseInt(Android.getInfo()) < parseInt(2.4)) ? "Android.oplink('https://t.me/Teamx1337official')" : "Android.oplink('https://t.me/Teamx1337official')"}">Join Telegram Channel</button>
+</div>
+
+
 <br>
-<div>Autoskip Sponsors <span onclick="sttCnf(this,'autoSpn');" style="${sttCnf(0,0,"autoSpn")}" ><b style="${sttCnf(0,1,"autoSpn")}"></b></span></div>
+<div>Auto Play Video <span onclick="sttCnf(this,'autoSpn');" style="${sttCnf(0,0,"autoSpn")}" ><b style="${sttCnf(0,1,"autoSpn")}"></b></span></div>
 <br>
-<div>Force Zoom <span onclick="sttCnf(this,'fzoom');" style="${sttCnf(0,0,"fzoom")}" ><b style="${sttCnf(0,1,"fzoom")}" ></b></span></div> 
+<div>Premium Zoom<span onclick="sttCnf(this,'fzoom');" style="${sttCnf(0,0,"fzoom")}" ><b style="${sttCnf(0,1,"fzoom")}" ></b></span></div> 
 <br>
-<div style="display:flex;justify-content:center;font-family:cursive;text-align:center;font-size:22px;font-weight:bolder;color:#0f8;">Made with 
+<div style="display:flex;justify-content:center;font-family:cursive;text-align:center;font-size:22px;font-weight:bolder;color:#0f8;">TEAM X
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#f00" style="margin:6px;margin-top:5px" viewBox="0 0 16 16">
 <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
-</svg> by Prateek Chaubey</div>
-<br><br>
-<div style="font-size:13px;"><b style="font-weight:bold">Disclaimer</b>: This is an unofficial OSS Youtube Mod , all the logos and brands are property of Google LLC.<br>
-You can get the source code at <a href="#" onclick="Android.oplink('https://github.com/prateek-chaubey/YTPRO')" > https://github.com/prateek-chaubey/YTPRO</a>
-<br><br><center>
-<a href="#" onclick="Android.oplink('https://github.com/prateek-chaubey/YTPRO/issues')" >Report Bugs</a>
-</center></div>`;
+</svg>1337</div>
+<br>
+
+<div style="font-size:13px;">
+  <b style="font-weight:bold; color:cyan; text-decoration:none">Features</b>:
+  Discover a YouTube-like experience with all premium options available, completely ad-free. 
+  Re-Developed By: <a href="#" onclick="Android.oplink('https://about-me-two-chi.vercel.app/')" style="color:yellow;text-decoration: none;">Shofikul Islam</a>
+  <br><br>
+  <center>
+    <a href="#" onclick="Android.oplink('https://t.me/S80F9K6L1337')" style="color:tomato; text-decoration:underline;">Contact Developer</a>
+  </center>
+</div>`;
 
 document.body.appendChild(ytpSet);
 ytpSet.appendChild(ytpSetI);
@@ -541,7 +612,7 @@ z-index:99999999999999;padding:20px;text-align:center;border-radius:25px;color:w
 `);
 
 ytproDownDiv.innerHTML="<style>#downytprodiv a{text-decoration:none;color:white;} #downytprodiv li{list-style:none; display:flex;align-items:center;justify-content:center;color:#fff;border-radius:25px;padding:10px;background:#000;margin:5px;}</style>";
-ytproDownDiv.innerHTML+="Select Avilaible Formats<ul id='listurl'>";
+ytproDownDiv.innerHTML+="Select your Video Format | TEAM X 1337<ul id='listurl'>";
 
 document.body.appendChild(ytproDown);
 ytproDown.appendChild(ytproDownDiv);
@@ -585,7 +656,7 @@ ${downBtn}<span style="margin-left:10px;"  >Audio${formatFileSize(af[x].contentL
 
 if(thumb != undefined){
 
-ytproDownDiv.innerHTML+="<br>Thumbnails<br><br><style>.thu{height:80px;border-radius:10px;}.thu img{max-height:97%;max-width:70%;border-radius:10px;border:1px solid silver;}</style>";
+ytproDownDiv.innerHTML+="<br><h3>Download Thumbnail</h3><br><br><style>.thu{height:80px;border-radius:10px;}.thu img{max-height:97%;max-width:70%;border-radius:10px;border:1px solid silver;}</style>";
 for(x in thumb){
 ytproDownDiv.innerHTML+=`<li data-ytprotit="${t+Date.now()}"  onclick="YTDownVid(this,'.png')" class="thu" data-ytprourl="${thumb[x].url}">
 <img src="${thumb[x].url}"><br>
@@ -597,7 +668,7 @@ ytproDownDiv.innerHTML+=`<li data-ytprotit="${t+Date.now()}"  onclick="YTDownVid
 
 
 }else {
-alert("AN ERROR OCCURED , PLEASE UPDATE YT PRO");
+alert("AN ERROR OCCURED , Contact Shofikul Islam");
 }
 }
 
@@ -688,7 +759,7 @@ ytproPIPVidElem.innerHTML=`<svg xmlns="http://www.w3.org/2000/svg" width="16" he
 <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"/>
 <path d="M8 8.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5h-5a.5.5 0 0 1-.5-.5v-3z"/>
 </svg>
-<span style="margin-left:8px">PIP Mode<span>`;
+<span style="margin-left:8px">Window Mode<span>`;
 ytproMainDiv.appendChild(ytproPIPVidElem);
 ytproPIPVidElem.addEventListener("click",
 function(){
@@ -704,7 +775,7 @@ ytproAudElem.innerHTML=`
 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="${c}" viewBox="0 0 16 16">
 <path fill-rule="evenodd" d="M8.5 2a.5.5 0 0 1 .5.5v11a.5.5 0 0 1-1 0v-11a.5.5 0 0 1 .5-.5zm-2 2a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zm4 0a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zm-6 1.5A.5.5 0 0 1 5 6v4a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm8 0a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm-10 1A.5.5 0 0 1 3 7v2a.5.5 0 0 1-1 0V7a.5.5 0 0 1 .5-.5zm12 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0V7a.5.5 0 0 1 .5-.5z"/>
 </svg>
-<span style="margin-left:8px">BG Play<span>`;
+<span style="margin-left:8px">Audio Play<span>`;
 ytproMainDiv.appendChild(ytproAudElem);
 ytproAudElem.addEventListener("click",
 function(){

@@ -446,7 +446,14 @@ ytpSetI.innerHTML+=`<b style='font-size:18px' >TEAM X 1337</b>
 <br><br>
 <div><input type="url" placeholder="Enter Youtube URL" onkeyup="searchUrl(this,event)"></div>
 <br>
+
+<div style="text-align:center">
+  <button style="margin-left:10px" onclick="${(parseInt(Android.getInfo()) < parseInt(2.4)) ? "Android.oplink('https://t.me/Teamx1337official')" : "Android.oplink('https://t.me/Teamx1337official')"}">Join Telegram Channel</button>
+</div>
+
 <div style="text-align:center" ><button onclick="alert('Coming Soon...');">Hearted Videos</button><button style="margin-left:10px" onclick="${(parseInt(Android.getInfo()) < parseInt(2.4)) ? "alert('New version available.\\n\\nPlease Update Your YT PRO')" : "alert('YT PRO is upto date');"}">Check for Updates</button></div>
+
+
 <br>
 <div>Auto Play Video <span onclick="sttCnf(this,'autoSpn');" style="${sttCnf(0,0,"autoSpn")}" ><b style="${sttCnf(0,1,"autoSpn")}"></b></span></div>
 <br>

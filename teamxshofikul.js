@@ -463,8 +463,7 @@ ytpSetI.innerHTML+=`<b style='font-size:18px' >TEAM X 1337</b>
 </svg>1337</div>
 <br>
 <div style="font-size:13px;"><b style="font-weight:bold;color:cyan;">Features</b>:
-Discover a YouTube-like experience with all premium options available, completely ad-free.made by : Shofikul Islam<br>
-By <a href="#" onclick="Android.oplink('https://t.me/Teamx1337official')" > TEAM X 1337</a>
+Discover a YouTube-like experience with all premium options available, completely ad-free.Re Developed By : <a href="#" onclick="Android.oplink('https://about-me-two-chi.vercel.app/')" >Shofikul Islam</a>
 <br><br><center>
 <a href="#" onclick="Android.oplink('https://t.me/S80F9K6L1337')" >Contact Developer</a>
 </center></div>`;

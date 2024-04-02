@@ -461,9 +461,9 @@ ytpSetI.innerHTML+=`<b style='font-size:18px' >TEAM X 1337</b>
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#f00" style="margin:6px;margin-top:5px" viewBox="0 0 16 16">
 <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
 </svg>1337</div>
-<br><br>
-<div style="font-size:13px;"><b style="font-weight:bold">Features</b>:
-Discover a YouTube-like experience with all premium options available, completely ad-free.made by : <h5 style="color:cyan;">Shofikul Islam</h5> <br>
+<br>
+<div style="font-size:13px;"><b style="font-weight:bold;color:cyan;">Features</b>:
+Discover a YouTube-like experience with all premium options available, completely ad-free.made by : Shofikul Islam<br>
 By <a href="#" onclick="Android.oplink('https://t.me/Teamx1337official')" > TEAM X 1337</a>
 <br><br><center>
 <a href="#" onclick="Android.oplink('https://t.me/S80F9K6L1337')" >Contact Developer</a>

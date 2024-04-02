@@ -441,8 +441,8 @@ color:black;
 }
 
 </style>`;
-ytpSetI.innerHTML+=`<b style='font-size:18px' >YT PRO Settings</b>
-<span style="font-size:10px">v${YTProVer}</span>
+ytpSetI.innerHTML+=`<b style='font-size:18px' >TEAM X 1337</b>
+<span style="font-size:10px">YouTube Premium</span>
 <br><br>
 <div><input type="url" placeholder="Enter Youtube URL" onkeyup="searchUrl(this,event)"></div>
 <br>

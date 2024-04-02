@@ -457,8 +457,9 @@ ytpSetI.innerHTML+=`<b style='font-size:18px' >YT PRO Settings</b>
 <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
 </svg>App Enhance Re Developed By : Shofikul Islam </div>
 <br><br>
-<div style="font-size:13px;"><b style="font-weight:bold">Disclaimer</b>: This is an unofficial OSS Youtube Mod , all the logos and brands are property of Google LLC.<br>
-You can get the source code at <a href="#" onclick="Android.oplink('https://github.com/prateek-chaubey/YTPRO')" > https://github.com/prateek-chaubey/YTPRO</a>
+<div style="font-size:13px;"><b style="font-weight:bold">Copyright : Unknown Source</b>: This is app redeveloped by : Shofikul Islam.
+All Copyright Reserved By : TEAM X 1337<br>
+You can join TEAM X 1337 community by clicking the option. <a href="#" onclick="Android.oplink('https://github.com/prateek-chaubey/YTPRO')" > https://github.com/prateek-chaubey/YTPRO</a>
 <br><br><center>
 <a href="#" onclick="Android.oplink('https://github.com/prateek-chaubey/YTPRO/issues')" >Report Bugs</a>
 </center></div>`;
